@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    color: white;
+}
+.kapsa{
+    height: 110vh;
+    width: 100%;
+    display: flex;
+}
+.ekran{
+    height: 110vh;   /*Bu kısım değişebilir(ekranın boyu) */
+    width: 85%;
+    background-color: black;
+    position: relative;
+}
+.bosluk{
+    background-color: black;
+    height: 110vh;
+    width: 15%;
+}
+.baslik{
+    height: 20vh;
+    width: 100%;
+    padding-top: 50px;
+    color: #f9004d;
+    text-align: center;
+    background-color: black;
+}
+h1{
+   color: #f9004d;
+}
+.hesapla{
+    color: white;
+}
+.tablo1{
+    padding-top: 10px;
+    width: 100%;
+}
+.hamming_kod{
+    padding-top: 50px;
+}
+.tablo3{
+    padding-top: 20px;
+    width: 100%;
+}
+tr{
+    height: 25px;
+    margin: auto;
+}
+td{
+    width: 25px;
+    text-align: center;
+    border: 1px solid #f9004d;
+    color: white;
+}
+input{
+    color: #f9004d;
+}
+h4{
+    font-weight: lighter;
+}
+.button{
+    background-color: #f9004d;
+    border-radius: 30px;
+    border: 3px solid #f9004d;
+    width: 75px;
+    color: white;
+    margin-left: 10px;
+}
+.degisen_bitler{
+    margin-top: 50px;
+}
+::-webkit-scrollbar{
+    background-color:black ;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background:#f9004d;
+    border-radius: 20px;
+}
+.aciklama1{
+    margin-top: 50px;
+}
+.buton{
+    width: 18%;
+    height: 50px;
+    margin-top: 50px;
+    background-color: #f9004d;
+    transition: .5s;
+    text-align: center;
+    border-radius: 30px;
+    border: 3px solid #f9004d;
+    margin-left: 20%;
+    padding-top: 11px;
+}
+a{
+    text-decoration: none;
+}
+.buton:hover{
+    transform: scale(1.2);
+    background-color: black;
+}
+.aciklama2{
+    margin-top: 20px;
+}
+
+

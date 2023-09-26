@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projecss.css">
+    <script src="yeniproje.js" defer></script>
+    <title>Hamming Code</title>
+</head>
+<body>
+<div class="baslik">
+    <h1>Hamming Error-Correcting Code Simülatörü</h1>
+</div>
+<div class="kapsa">
+    <div class="bosluk">
+        
+    </div>
+    <div class="ekran">
+        
+        <form class="hesapla">
+            <label><br><br> Hamming kodunu hesaplamak istediğiniz veriyi giriniz:</label>
+            <input type="text" id="veri1">
+            <input type="button" class="button" id="button" onclick="hesapla()" value="Hesapla"></input>
+        </form>
+        <div class="aciklama1" id="aciklama1">D: Data bit<br>C: Check bit</div>
+        <div class="tablo1" id="tablo1"></div>
+        <div class="hamming_kod" id="hamming_kod">
+            Hamming kod:
+            <span id="hamming_deger"></span>
+        </div>
+        <h4 id="aciklama"><br><br><br> Rastgele olarak bir değer değiştirilmiştir ve aşağıdaki tabloda renkli olarak gösterilmiştir</h4>
+        <div class="tablo3" id="tablo3"></div>
+        <div class="aciklama2" id="aciklama2">Aşağıda yeni hamming kod ile eskisi karşılaştırılmıştır ve değişmiş olan check bitleri toplanmıştır</div>
+        <div class="degisen_bitler" id="degisen_bitler"></div>
+        <div class="buton" id="buton"><a href="proje.html">Bir daha deneyelim mi?</a></div>
+    </div>
+</div>
+
+
+</body>
+</html>
+
